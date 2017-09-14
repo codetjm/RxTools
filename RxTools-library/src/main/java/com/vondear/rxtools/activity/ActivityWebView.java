@@ -186,8 +186,8 @@ public class ActivityWebView extends ActivityBase {
                 }
 
                 // Otherwise allow the OS to handle things like tel, mailto, etc.
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(intent);
+//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//                startActivity(intent);
                 return true;
             }
         });
